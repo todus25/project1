@@ -1,0 +1,200 @@
+*{
+	box-sizing:border-box;
+	}
+.top{height:1.5cm;
+      width:100%;
+	  
+	  margin:0px;
+	  padding:0px;
+	  position:relative;
+	  box-shadow:3px 3px 3px black;
+	  }
+	  img{height:1.5cm;
+	           width:2cm;
+			   margin-left:2cm;
+			   margin-bottom:0cm;}
+         ul{position:absolute;
+                 top:0px;
+                 left:8cm;
+	             
+                 height:1.5cm;
+		         width:800px;
+		         padding:0px;
+		         margin-top:0px;
+		margin-bottom:0px;}
+	li{width:16.23%;
+	display:inline-block;
+	  text-align:center;
+	 padding:0px;
+	 margin:0px;
+	
+	 height:1.5cm;
+	 position:relative;}
+	  
+	  ul>li:hover{background:#EAEAEA
+	            }
+	  
+	  ul>li>ul{position:absolute;
+	        top:1.5cm;
+			left:0px;
+		padding:0px;
+	   
+			height:4.5cm;
+			width:100%;
+		  display:none;}
+		 ul>li>ul>li{	
+			  width:100%;
+		  height:1.5cm;
+		  
+		  padding:0px;
+	          margin-top:0px;
+		margin-bottom:0px;
+		}
+	  
+	ul>li:hover ul{display:block;
+	           box-shadow:3px 3px 3px black; }	
+	ul>li>ul>li:hover{background:#63585E;}
+	.dabba{height:15cm;
+	        width:100%;
+	       border:2px solid green;
+		   margin-top:.2cm;
+	padding:0px 0px 0px 0px;}
+		  .a{background-image:url('image/bg.jpg');
+		   	background-size:100% 15cm;
+			background-repeat:no-repeat;
+	
+		  animation:opa 2s 1;
+          animation-timing-function:ease-in-out;
+          		  }
+			 .x>img{height:4.5cm;
+			 width:10cm;
+			 
+			    }	 
+#qq,#pp,#rr{margin-left:0px;}
+#ww,#qq,#ii,#pp,#ll,#rr{animation:rotate 5s infinite;
+animation-direction:forward;
+animation-timing-function:ease-in-out;
+animaton-fill-mode:backwards;
+}	
+#qq,#ll,#rr{animation-delay:4s;}
+@keyframes rotate{from{transform:rotateY(0deg);}
+                  to{transform:rotateY(360deg);}	
+				  
+}
+				 #ww,#ll,#ii{margin-left:7cm;}
+				  @keyframes opa{0%{opacity:0;}
+				  
+				  
+				  100%{opacity:1;}}
+		 .z{height:15cm;
+		         width:100%;
+				 background:red;
+				 position:relative;
+				 margin:0px;
+				 padding:0px;}
+				 .z>img{position:top:0px;
+					 height:10cm;
+				 width:50%;margin-left:0px;
+				 margin-bottom:0px;
+				display:block; }
+				.z>div{position:absolute;
+				top:0px;
+				left:50%;
+				width:50%;
+					
+				background:cyan;
+				text-align:center;}
+				 
+				 .z>.bb{position:absolute;
+				 top:10cm;
+				 left:0px;
+					 height:4cm;
+				  width:100%;
+				  background:green;
+				  margin-top:0px;
+				  }
+				  .z>.aa{position:absolute;
+				  top:14cm;
+				  left:0px;
+					  height:1cm;
+				  width:100%;
+				  background:yellow;}
+				  h1{
+				  font-size:.5cm;
+				  }
+				 .aa>p{font-size:.3cm;
+				  font-weight:50%;}
+				  button{background:#1CB2B0;
+				  padding:0px;
+				  width:6cm;
+				  color:white;
+				  margin-top:.5cm;
+				  border:0px;
+				  height:1.5cm;
+				  }
+				  .aa>div{height:100%;
+				  margin-top:0px; 
+					  position:relative;
+					  top:0px;
+				  background:blue;
+				  padding-top:.25cm;
+				  color:white;
+				}
+				  
+				                    
+				  .aa>div>p{position:absolute;
+				  left:0px;
+					  padding:0px;
+				  margin-top:0cm;
+				  font-size:.5cm;
+				  
+				  color:white;
+				   animation:footer 2s infinite;
+				  animation-direction:forward; }
+				  @keyframes footer{from{left:0px;}
+				  to{left:95%;}}
+				  .pan>h1{text-align:center;
+				            background:grey;
+							height:2cm;
+							width:100%;
+							margin-top:0px;
+							padding-top:.6cm;
+						
+							margin-bottom:0px;
+							color:white;}
+							.rrr{height:9cm;
+							width:100%;
+							background:white;}
+							.pan>.eee{position:absolute;
+							     top:11cm;
+								 left:0px;
+								height:4cm;
+							width:100%;
+							background:#1BB8B8;text-align:center;
+							padding-top:1cm;
+							font-size:1cm;
+							color:white;}
+							span{font-size:.5cm;}
+							.pan>.rrr>.div{height:9cm;
+							width:33.33%;
+				                   
+								 margin-left:0px;
+								 padding-left:0px;
+								 text-align:center;}
+								.pan>.rrr>.div>img{height:2cm;
+								  width:2cm;
+								  margin-top:1.5cm;
+								  margin-left:0cm;
+								 
+								}
+								.pan{position:relative;}
+								.ccc{position:absolute;
+								     top:2cm;
+									 left:0px;}
+									 .ddd{position:absolute;
+								     top:2cm;
+									 left:33%;} 
+									 .eee{position:absolute;
+								     top:2cm;
+									left:66%;}
+									 .x{background: radial-gradient(grey,black);}
